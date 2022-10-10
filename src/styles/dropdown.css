@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+*{
+    font-family: 'Dangrek', cursive;
+    
+}
+.container-principal{
+    width: 100%;
+}
+
+.dropdown{
+    background: #ffd768;
+    text-align: center;
+    font-size: 1.3vw;
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+
+.dropdown:hover{
+    cursor: pointer;
+}
+
+.dropdown-conteudo{
+    
+    background: #ffd768;
+    text-align: center;    
+}
+
+.dropdown-conteudo p{
+    margin-top:2px;
+    color:white;
+}
+
+.dropdown-conteudo p:hover{
+    background: #e6b635;
+}
+
+.dropdown-conteudo:hover{
+    cursor:pointer;
+}
