@@ -98,7 +98,7 @@
   transition: 1s;
   color:white;
   border:2px solid black;
-  box-shadow: inset 10vw 0 0 0 #ffcc3b
+  box-shadow: inset 10vw 0 0 0 #ffcc3b;
 }
 .container-info-body2{
   display:flex;

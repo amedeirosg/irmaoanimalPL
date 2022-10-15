@@ -24,7 +24,7 @@ function Header() {
         </div>
         <div className="acessos">
           <a href="/adote">Adote</a>
-          <a href="#">Ajude</a>
+          <a href="/ajude">Ajude</a>
           <a href="#">Sobre</a>
         </div>
         <div className="redes-sociais">
