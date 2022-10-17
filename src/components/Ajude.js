@@ -1,38 +1,52 @@
 import React from "react";
 import Header from "../components/Header.js";
-import fundoPets from "../imgs/pets-fundo-ajude.jpg";
 import "../styles/ajude.css";
+import petpreguica from "../imgs/pet-preguicoso.png";
 function Ajude() {
   return (
     <div className="container-ajude">
       <Header />
-      <div className="container-doacoes">
-        <img id="img-fundo" src={fundoPets}></img>
-        <div className="container-informacoes">
-          <div className="doacoes">
-            <div className="doacoes-titulo">
-              <h1>Doações</h1>
-            </div>
-            <div className="doacoes-texto">
-              <h4>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                dictum augue id luctus sollicitudin. Nam aliquet in mi et
-                ultrices. Mauris placerat arcu in fermentum blandit. Integer et
-                lobortis enim. Nulla et ante sed nisl iaculis lacinia. Donec
-                libero mauris, semper commodo massa scelerisque, mollis pulvinar
-                mauris. Pellentesque sed pellentesque magna, a dictum sem. Donec
-                nec scelerisque eros. Integer metus massa, convallis ut rutrum
-                sit amet, molestie vitae lacus. Duis nunc leo, venenatis ut sem
-                eu, porta interdum mauris. In nec mi in libero sollicitudin
-                consequat. Donec dapibus dapibus mauris eget bibendum. Duis
-                lacinia, purus et ullamcorper aliquam, lorem tellus varius
-                tortor, et finibus dolor lorem ac odio. Nam nec egestas odio,
-                sit amet sodales nulla. Pellentesque porttitor neque vitae arcu
-                congue, eu ornare tortor condimentum. Curabitur malesuada rutrum
-                sem, eget gravida odio viverra eget. Cras finibus posuere nibh,
-                at consectetur dui sodales a. Fusce sod
-              </h4>
-            </div>
+      <div className="container-como-ajudar">
+        <img src={petpreguica}></img>
+        <div className="metodos-ajuda">
+          <div className="como-ajudar-titulo">
+            <h1>Que bom que você tem interesse em ajudar nosso projeto!</h1>
+          </div>
+          <br></br>
+          <div className="informacoes-ajudar">
+            <p>
+              Todo trabalho que realizamos no projeto irmão animal é feito de
+              forma independente, voluntária e sem qualquer ajuda da prefeitura
+              de Pedro Leopoldo.
+            </p>
+            <br></br>
+            <p>
+              Por aqui você encontra várias formas de contribuir para que
+              possamos continuar cuidando dos bichinhos como por exemplo:
+            </p>
+            <br></br>
+            <ul>
+              <li>
+                <p id="apadrinhe">
+                  <a href="#apadrinhe">Apadrinhe</a> um pet com um valor mensal
+                  mínimo de R$1,00 mensal.
+                </p>
+              </li>
+              <li>
+                <p id="contribuir">
+                  <a href="#">Contribuir</a> financeiramente nos ajudando com
+                  despesas mensais como: ração, medicamentos, atendimento
+                  veterinário e também trabalhos voluntários.
+                </p>
+              </li>
+
+              <li>
+                <p id="lt">
+                  <a href="#">Lar temporário</a> até que encontremos uma doação
+                  responsável.
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
