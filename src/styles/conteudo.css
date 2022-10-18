@@ -232,35 +232,3 @@
   height:70px;
   background-color: #f3ebd4d8;
 }
-
-.nossos-apoiadores{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.apoiadores-titulo h4{
-  text-align: center;
-  font-size: 1.5vw;
-}
-
-.apoiadores-titulo h2{
-  font-size: 2vw;
-}
-
-.apoiadores-conteudo{
-  justify-content: space-around;
-  display:flex;
-  margin-top: 7vw;
-}
-
-.apoiadores-topicos{
-  color:orange;
-  font-size:2vw;
-}
-
-.definicao{
-  color:black;
-  font-size: 1.3vw;
-  width: 30vw;
-}

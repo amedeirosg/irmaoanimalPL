@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/conteudo.css";
+import Apoiadores from "../components/Apoiadores.js";
 import dog1 from "../imgs/dog-adote.jpeg";
 import dog2 from "../imgs/dog-ajude.jpeg";
 import picture1 from "../imgs/picture4.png";
@@ -152,42 +153,7 @@ function Conteudo() {
         </div>
       </motion.div>
       <div className="wave2"></div>
-      <div className="nossos-apoiadores">
-        <div className="apoiadores-titulo">
-          <h2>Você é o nosso principal patrocinador!</h2>
-          <h4>Encontre aqui formas de poder ajudar</h4>
-        </div>
-      </div>
-      <div className="apoiadores-conteudo">
-        <div className="apoiadores-topicos">
-          <p id="doacoes">Doações</p>
-          <div className="definicao">
-            <p>
-              Doações online via PIX do nosso tesoureiro Yuri (xxxxxxxxxxxx)
-            </p>
-          </div>
-          <p id="ser-voluntario">Seja um voluntário</p>
-          <div className="definicao">
-            <p>
-              Seja um voluntário e entre para a família do Projeto Irmão Animal
-              para tornamos a vida dos pets mais felizes
-            </p>
-          </div>
-        </div>
-        <div className="apoiadores-topicos">
-          <p>Lar temporário</p>
-          <div className="definicao">
-            <p>
-              Forneça um lar temporário até que possamos arrumar um dono
-              responsável
-            </p>
-          </div>
-          <p id="seja-parceiro">Seja nosso parceiro</p>
-          <div className="definicao">
-            <p>Deseja nos ajudar de alguma forma? Venha conosco!</p>
-          </div>
-        </div>
-      </div>
+      <Apoiadores />
     </div>
   );
 }

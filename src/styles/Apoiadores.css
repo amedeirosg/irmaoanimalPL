@@ -1,0 +1,50 @@
+
+.container-apoiadores{
+    height:35vw;  
+    background-image: url('../imgs/patinhas.png');
+}
+
+.nossos-apoiadores{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apoiadores-titulo{
+    margin-top:2vw;
+}
+
+.apoiadores-titulo h4{
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.apoiadores-titulo h2{
+    font-size: 2vw;
+}
+
+.apoiadores-conteudo{
+    justify-content: space-around;
+    display:flex;
+    margin-top: 7vw;
+}
+
+.apoiadores-topicos{
+    color:orange;
+    font-weight: bold;
+    font-size:2vw;
+}
+
+.apoiadores-topicos p{
+    margin-bottom: 0.7vw;
+}
+
+.definicao{
+    color:black;
+    font-size: 1.3vw;
+    width: 30vw;
+}
+
+#texto-topico{
+    font-size:1.2vw;
+}
