@@ -9,6 +9,7 @@ import picture3 from "../imgs/pets.png";
 import picture4 from "../imgs/pets2.png";
 import petduvida from "../imgs/petduvida.png";
 import petfofo from "../imgs/petfofo.png";
+import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { motion } from "framer-motion";
 import {
   CarouselProvider,
@@ -57,6 +58,10 @@ function Conteudo() {
             {<img src={dog2}></img>}
           </Slide>
         </Slider>
+        <ButtonNext>
+          <FiChevronLeft size="1.5em"></FiChevronLeft>
+        </ButtonNext>
+        <ButtonBack>Back</ButtonBack>
       </CarouselProvider>
       <motion.div
         initial={{ opacity: 0 }}

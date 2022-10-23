@@ -1,9 +1,27 @@
 
 .container-apoiadores{
     height:35vw;  
-    background-image: url('../imgs/patinhas.png');
+    background-image: url('../imgs/fundopatinhas.png');
+    background-color: #ffd768;
+    margin-top:10vw;
+    position:relative;
 }
 
+.pet-pic-apo{
+    display: flex;
+    justify-content: center;
+    height:10vw;
+    width: 14vw;
+    position: absolute;
+    top:0;
+    margin-left:8vw;
+    margin-top:-4vw;   
+}
+.pet-pic-apo img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
 .nossos-apoiadores{
     display:flex;
     justify-content: center;

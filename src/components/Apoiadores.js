@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Apoiadores.css";
-import patinhas from "../imgs/patinhas.png";
+import petApoia from "../imgs/pet_picture_apo.png";
 function Apoiadores() {
   return (
     <div className="container-apoiadores">
@@ -41,6 +41,9 @@ function Apoiadores() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="pet-pic-apo">
+        <img src={petApoia}></img>
       </div>
     </div>
   );

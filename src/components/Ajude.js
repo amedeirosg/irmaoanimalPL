@@ -9,7 +9,9 @@ function Ajude() {
     <div className="container-ajude">
       <Header />
       <div className="container-como-ajudar">
-        <img src={petpreguica}></img>
+        <div className="pet-pic-preg">
+          <img src={petpreguica}></img>
+        </div>
         <div className="metodos-ajuda">
           <div className="como-ajudar-titulo">
             <h1>Que bom que você tem interesse em ajudar nosso projeto!</h1>
@@ -43,7 +45,7 @@ function Ajude() {
               </li>
               <li>
                 <p id="lt">
-                  <a href="#">Lar temporário</a> até que encontremos uma doação
+                  <a href="#">Lar temporário</a> até que encontremos uma adoção
                   responsável.
                 </p>
               </li>
@@ -58,10 +60,10 @@ function Ajude() {
             </p>
           </div>
         </div>
-        <footer>
-          <Apoiadores />
-        </footer>
       </div>
+      <footer>
+        <Apoiadores />
+      </footer>
     </div>
   );
 }
