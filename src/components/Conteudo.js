@@ -53,15 +53,17 @@ function Conteudo() {
               <label>Doe a partir de R$1,00 por mês</label>
             </div>
             <div className="button">
-              <a href="#">Apadrinhe</a>
+              <a href="/apadrinhe">Apadrinhe</a>
             </div>
             {<img src={dog2}></img>}
           </Slide>
         </Slider>
-        <ButtonNext>
-          <FiChevronLeft size="1.5em"></FiChevronLeft>
+        <ButtonBack className="button-back">
+          <FiChevronLeft className="back-left" size="1.5em"></FiChevronLeft>
+        </ButtonBack>
+        <ButtonNext className="button-next">
+          <FiChevronRight size="1.5em"></FiChevronRight>
         </ButtonNext>
-        <ButtonBack>Back</ButtonBack>
       </CarouselProvider>
       <motion.div
         initial={{ opacity: 0 }}
@@ -139,17 +141,7 @@ function Conteudo() {
             </div>
           </div>
           <div className="img-sobre-nos">
-            <span>
-              <iframe
-                width="550"
-                height="410"
-                src="https://www.youtube.com/embed/cTsbzlSU88g"
-                title="Wave effect in css - Tutorial"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </span>
+            <span>video here</span>
           </div>
           <div className="img-pets">
             <img id="pet-duvida" src={petduvida}></img>

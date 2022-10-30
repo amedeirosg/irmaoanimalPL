@@ -1,0 +1,103 @@
+.apadrinhamento{
+    user-select: none;
+}
+
+.container-apadrinhe{
+    margin-top: 5vw;
+    user-select: none;
+}
+
+.titulo-apadrinhe{
+    font-size:1.4vw;
+    text-align: center;
+}
+
+.como-apadrinhar{
+    display:flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+.texto-apadrinhe{
+    text-align: justify;
+    width: 80vw;
+    display:flex;
+    font-size:1.4vw;
+}
+
+.container-filtro{
+    display:flex;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+.filtrar-animais{
+    width: 90vw;
+}
+
+.filtrar-animais input{
+    margin-right:1vw;
+}
+
+.container-busca{
+    user-select: none;
+    margin-top: 1vw;   
+    display:flex; 
+}
+
+.buscar-animais{
+    width: 12.7vw;
+    margin-left:4.8vw;
+    text-align: center;
+}
+
+.busca-nome{
+    width:12.4vw;
+    text-align: center;
+}
+
+.btn-pesquisar{
+    transition: 0.6s;
+    background-color: rgb(248, 194, 94);
+    border-radius: 8px;
+    margin-top:1vw;
+    cursor:pointer;
+}
+
+.btn-pesquisar:hover{
+    transition: 0.6s;
+    background-color: rgb(255, 178, 34);
+}
+
+.btn-pesquisar a{
+    color:black;
+    text-decoration: none;
+}
+
+.cards-apadrinhe{
+    border:1px solid black;
+    width:75vw;
+    margin-top: -3vw;
+    margin-left:2vw;
+    height: 30vw;
+    display:flex;
+    justify-content: space-around;
+}
+
+.individual-cards{
+    border:1px solid black;
+    width: 23vw;
+}
+
+.picture-pet{
+    border:1px solid black;
+    margin: 1vw;
+    height: 22vw;
+    max-height: 22vw;
+}
+
+.informations-pet{
+    border:1px solid black;
+    height:5.5vw;
+    max-height:5.5vw;
+}

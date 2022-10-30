@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "../components/Header.js";
 import Dropdown from "../components/Dropdown.js";
+import Cards from "../components/Cards.js";
+import CardsTwo from "../components/CardsTwo.js";
 import flokao from "../imgs/flokao.jpeg";
 import "../styles/adote.css";
 
@@ -23,139 +25,9 @@ function Adote() {
             <p>Pesquisar</p>
           </div>
         </div>
-        <div className="infos-pet">
-          <div className="cards">
-            <div className="img-pet">
-              <img src={flokao}></img>
-            </div>
-            <div className="infos">
-              <div className="infos-adocao">
-                <div className="name">
-                  <span>FLOKI</span>
-                </div>
-                <div className="genero">
-                  <label>Idade: 2 anos</label>
-                </div>
-                <div className="tipo">
-                  <label>Genêro: Macho </label>
-                </div>
-              </div>
-            </div>
-            <div className="botao-detalhes">
-              <a href="#">Mais Detalhes</a>
-            </div>
-          </div>
-          <div className="cards">
-            <div className="img-pet">
-              <img src={flokao}></img>
-            </div>
-            <div className="infos">
-              <div className="infos-adocao">
-                <div className="name">
-                  <span>FLOKI</span>
-                </div>
-                <div className="genero">
-                  <label>Idade: 2 anos</label>
-                </div>
-                <div className="tipo">
-                  <label>Genêro: Macho </label>
-                </div>
-              </div>
-            </div>
-            <div className="botao-detalhes">
-              <a href="#">Mais Detalhes</a>
-            </div>
-          </div>
-          <div className="cards">
-            <div className="img-pet">
-              <img src={flokao}></img>
-            </div>
-            <div className="infos">
-              <div className="infos-adocao">
-                <div className="name">
-                  <span>FLOKI</span>
-                </div>
-                <div className="genero">
-                  <label>Idade: 2 anos</label>
-                </div>
-                <div className="tipo">
-                  <label>Genêro: Macho </label>
-                </div>
-              </div>
-            </div>
-            <div className="botao-detalhes">
-              <a href="#">Mais Detalhes</a>
-            </div>
-          </div>
-        </div>
+        <Cards />
       </div>
-      <div className="container-info-body2">
-        <div className="infos-pet2">
-          <div className="cards2">
-            <div className="img-pet2">
-              <img src={flokao}></img>
-            </div>
-            <div className="infos2">
-              <div className="infos-adocao2">
-                <div className="name2">
-                  <span>FLOKI</span>
-                </div>
-                <div className="genero2">
-                  <label>Idade: 2 anos</label>
-                </div>
-                <div className="tipo2">
-                  <label>Genêro: Macho </label>
-                </div>
-              </div>
-            </div>
-            <div className="botao-detalhes2">
-              <a href="#">Mais Detalhes</a>
-            </div>
-          </div>
-          <div className="cards2">
-            <div className="img-pet2">
-              <img src={flokao}></img>
-            </div>
-            <div className="infos2">
-              <div className="infos-adocao2">
-                <div className="name2">
-                  <span>FLOKI</span>
-                </div>
-                <div className="genero2">
-                  <label>Idade: 2 anos</label>
-                </div>
-                <div className="tipo2">
-                  <label>Genêro: Macho </label>
-                </div>
-              </div>
-            </div>
-            <div className="botao-detalhes2">
-              <a href="#">Mais Detalhes</a>
-            </div>
-          </div>
-          <div className="cards2">
-            <div className="img-pet2">
-              <img src={flokao}></img>
-            </div>
-            <div className="infos2">
-              <div className="infos-adocao2">
-                <div className="name2">
-                  <span>FLOKI</span>
-                </div>
-                <div className="genero2">
-                  <label>Idade: 2 anos</label>
-                </div>
-                <div className="tipo2">
-                  <label>Genêro: Macho </label>
-                </div>
-              </div>
-            </div>
-            <div className="botao-detalhes2">
-              <a href="#">Mais Detalhes</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <CardsTwo />
     </div>
   );
 }

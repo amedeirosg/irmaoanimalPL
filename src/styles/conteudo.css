@@ -232,3 +232,34 @@
   height:70px;
   background-color: #f3ebd4d8;
 }
+
+.button-back{
+  border:none;
+  position: absolute;
+  top:30vw;
+  width: 3vw;
+  border-radius:20vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:2vw;
+  height:3vw;
+}
+
+.button-next{
+  border:none;
+  position:absolute;
+  top:0;
+  margin-left: 93vw;
+  top:30vw;
+  width:3vw;
+  border-radius:10vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vw;
+}
+
+.back-left{
+
+}

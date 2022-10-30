@@ -32,8 +32,8 @@ function Ajude() {
             <ul>
               <li>
                 <p id="apadrinhe">
-                  <a href="#">Apadrinhe</a> um pet com um valor mensal mínimo de
-                  R$1,00 mensal.
+                  <a href="/apadrinhe">Apadrinhe</a> um pet com um valor mensal
+                  mínimo de R$1,00 mensal.
                 </p>
               </li>
               <li>
