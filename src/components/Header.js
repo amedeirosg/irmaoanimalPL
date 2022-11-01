@@ -25,7 +25,7 @@ function Header() {
         <div className="acessos">
           <a href="/adote">Adote</a>
           <a href="/ajude">Ajude</a>
-          <a href="#">Sobre</a>
+          <a href="/sobre">Sobre</a>
         </div>
         <div className="redes-sociais">
           <a href="https://instagram.com/projetoirmaoanimal" target="_blank">

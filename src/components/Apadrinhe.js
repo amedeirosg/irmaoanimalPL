@@ -2,7 +2,8 @@ import React from "react";
 import Cards from "../components/Cards.js";
 import Header from "../components/Header.js";
 import "../styles/apadrinhe.css";
-function Apadrinhe() {
+import flokao from "../imgs/flokao.jpeg";
+function Apadrinhe(props) {
   return (
     <div className="apadrinhamento">
       <Header />
@@ -19,16 +20,16 @@ function Apadrinhe() {
             </h4>
           </div>
         </div>
-        <div className="container-filtro">
-          <div className="filtrar-animais">
-            <input type="checkbox"></input>
-            <span>Visualizar todos</span>
-          </div>
-        </div>
       </div>
       <div className="container-busca">
         <div className="buscar-animais">
           <div className="busca-nome">
+            <div className="container-filtro">
+              <div className="filtrar-animais">
+                <input type="checkbox"></input>
+                <span>Visualizar todos</span>
+              </div>
+            </div>
             <span>Buscar por nome</span>
             <input type="text" placeholder="Insira o nome..."></input>
           </div>
@@ -39,26 +40,71 @@ function Apadrinhe() {
         <div className="cards-apadrinhe">
           <div className="individual-cards">
             <div className="picture-pet">
-              <span>oi</span>
+              <img src={flokao}></img>
             </div>
             <div className="informations-pet">
-              <span>oi</span>
+              <div className="name-pet">
+                <span id="nome">Floki</span>
+              </div>
+              <div className="idade-genero">
+                <div className="idade-pet">
+                  <span id="idade">Idade: 2 anos</span>
+                </div>
+                <div className="genero-pet">
+                  <span id="idade">Genêro: Macho</span>
+                </div>
+              </div>
+              <div className="more-details">
+                <div className="button-details">
+                  <a>Mais detalhes</a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="individual-cards">
             <div className="picture-pet">
-              <span>oi</span>
+              <img src={flokao}></img>
             </div>
             <div className="informations-pet">
-              <span>oi</span>
+              <div className="name-pet">
+                <span id="nome">Floki</span>
+              </div>
+              <div className="idade-genero">
+                <div className="idade-pet">
+                  <span id="idade">Idade: 2 anos</span>
+                </div>
+                <div className="genero-pet">
+                  <span id="idade">Genêro: Macho</span>
+                </div>
+              </div>
+              <div className="more-details">
+                <div className="button-details">
+                  <a>Mais detalhes</a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="individual-cards">
             <div className="picture-pet">
-              <span>oi</span>
+              <img src={flokao}></img>
             </div>
             <div className="informations-pet">
-              <span>oi</span>
+              <div className="name-pet">
+                <span id="nome">Floki</span>
+              </div>
+              <div className="idade-genero">
+                <div className="idade-pet">
+                  <span id="idade">Idade: 2 anos</span>
+                </div>
+                <div className="genero-pet">
+                  <span id="idade">Genêro: Macho</span>
+                </div>
+              </div>
+              <div className="more-details">
+                <div className="button-details">
+                  <a>Mais detalhes</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

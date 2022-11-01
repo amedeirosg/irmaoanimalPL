@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap");
 
-
-.conteudo-adote-pet{
+.conteudo-adote-pet {
   width: 15%;
   height: 6vw;
   margin-left: 6vw;
@@ -9,111 +8,110 @@
 }
 
 /* Change container filters */
-.filtros-pet{
-  border:1px solid black; 
-  margin-bottom: 10px; 
+.filtros-pet {
+  border: 1px solid black;
+  margin-bottom: 10px;
   user-select: none;
 }
 
 /* Change the container width images */
-.container-info-body{
-  display:flex;
+.container-info-body {
+  display: flex;
   height: 44vw;
 }
 
-.infos-pet{
-  margin-left:4vw;
-  margin-top:9vw;
+.infos-pet {
+  margin-left: 4vw;
+  margin-top: 9vw;
   width: 70vw;
-  display:flex;
+  display: flex;
 }
 
-.cards{
-  border:1px solid black;
+.cards {
+  border: 1px solid black;
   border-radius: 10px;
   margin-right: 2vw;
   width: 25vw;
   background-color: rgb(243, 240, 233);
 }
 
-.img-pet{
-  border:1px solid black;
+.img-pet {
+  border: 1px solid black;
   border-radius: 10px;
   height: 20vw;
   margin: 2vw;
 }
 
-.img-pet img{
+.img-pet img {
   border-radius: 10px;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.infos{
+.infos {
   margin-top: -1vw;
   height: 7.5vw;
   max-height: 7.5vw;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
-.infos-adocao{
+.infos-adocao {
   width: 70%;
   text-align: center;
   font-size: 1.5vw;
 }
 
-
-.genero{
-  margin-bottom:-0.5vw;
+.genero {
+  margin-bottom: -0.5vw;
   margin-left: -4vw;
 }
 
-.tipo{
-  margin-bottom:-0.5vw;
+.tipo {
+  margin-bottom: -0.5vw;
   margin-left: -4vw;
 }
 
-.botao-detalhes{
-  display:flex;
+.botao-detalhes {
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 7vw;
   max-height: 4vw;
-  text-align: center;  
+  text-align: center;
 }
 
-.botao-detalhes a{
+.botao-detalhes a {
   text-decoration: none;
-  color:black;
-  border:2px solid #ffcc3b;
-  padding:0.4vw;
+  color: black;
+  border: 2px solid #ffcc3b;
+  padding: 0.4vw;
   border-radius: 2vw;
   width: 9vw;
   font-size: 1vw;
 }
 
-.botao-detalhes a:hover{
+.botao-detalhes a:hover {
   transition: 1s;
-  color:white;
-  border:2px solid black;
+  color: white;
+  border: 2px solid black;
   box-shadow: inset 10vw 0 0 0 #ffcc3b;
 }
-.container-info-body2{
-  display:flex;
+.container-info-body2 {
+  display: flex;
   height: 44vw;
 }
 
-.infos-pet2{
-  margin-left:24.8vw;
-  margin-top:2vw;
+.infos-pet2 {
+  margin-left: 24.8vw;
+  margin-top: 2vw;
   width: 70vw;
-  display:flex;
+  display: flex;
 }
 
-.cards2{
-  border:1px solid black;
+.cards2 {
+  border: 1px solid black;
   border-radius: 10px;
   margin-right: 2vw;
   width: 25vw;
@@ -121,85 +119,86 @@
   background-color: rgb(243, 240, 233);
 }
 
-.img-pet2{
-  border:1px solid black;
+.img-pet2 {
+  border: 1px solid black;
   border-radius: 10px;
   height: 20vw;
   margin: 2vw;
 }
 
-.img-pet2 img{
+.img-pet2 img {
   border-radius: 10px;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.infos2{
+.infos2 {
   margin-top: -1vw;
   height: 7.5vw;
   max-height: 7.5vw;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
-.infos-adocao2{
+.infos-adocao2 {
   width: 70%;
   text-align: center;
   font-size: 1.5vw;
 }
 
-
-.genero2{
-  margin-bottom:-0.5vw;
+.genero2 {
+  margin-bottom: -0.5vw;
   margin-left: -4vw;
 }
 
-.tipo2{
-  margin-bottom:-0.5vw;
+.tipo2 {
+  margin-bottom: -0.5vw;
   margin-left: -4vw;
 }
 
-.botao-detalhes2{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  height: 7vw;
-  max-height: 4vw;
-  text-align: center;  
-}
-
-.botao-detalhes2 a{
+.botao-detalhes2 {
   text-decoration: none;
-  color:black;
-  border:2px solid #ffcc3b;
-  padding:0.4vw;
+  color: black;
+  border: 2px solid #ffcc3b;
+  padding: 0.4vw;
+  border-radius: 2vw;
+  width: 9vw;
+  font-size: 1vw;
+  cursor: pointer;
+}
+
+.botao-detalhes2 a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid #ffcc3b;
+  padding: 0.4vw;
   border-radius: 2vw;
   width: 9vw;
   font-size: 1vw;
 }
 
-.botao-detalhes2 a:hover{
+.botao-detalhes2 a:hover {
   transition: 1s;
-  color:white;
-  border:2px solid black;
-  box-shadow: inset 10vw 0 0 0 #ffcc3b
+  color: white;
+  border: 2px solid black;
+  box-shadow: inset 10vw 0 0 0 #ffcc3b;
 }
 
-body{
-  background-image: url('../imgs/patas-fundo.png');
+body {
+  background-image: url("../imgs/patas-fundo.png");
 }
 
 .pesquisar p {
   width: 14.63vw;
-  border:1px solid black;
+  border: 1px solid black;
   text-align: center;
   user-select: none;
   background: #ffd768;
-  color:white;
+  color: white;
 }
 
 .pesquisar p:hover {
-  cursor:pointer;
+  cursor: pointer;
   background: #e6b635;
 }
