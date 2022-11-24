@@ -1,16 +1,22 @@
 import React from "react";
 import { useState, useRef } from "react";
 function Sobre() {
-  const [item, setItem] = useState([]);
+  const [nomes, setNomes] = useState([]);
+  const [nomesFiltrados, setNomesFiltrados] = useState([]);
   const inputRef = useRef();
+  var teste = 0;
 
-  function onSubmit(e) {
+  function onClick(e) {
     e.preventDefault();
-
     const value = inputRef.current.value;
+    console.log(inputRef.current.value);
 
     if (value === "") return;
-    setItem((prev) => {
+
+    setNomes((prev) => {
+      return [...prev, value];
+    });
+    setNomesFiltrados((prev) => {
       return [...prev, value];
     });
 
@@ -19,31 +25,28 @@ function Sobre() {
 
   function onChange(e) {
     const value = e.target.value;
-    setItem((prev) => {
-      return prev.filter((item) =>
-        item.toLowerCase().includes(value.toLowerCase())
-      );
-    });
+    setNomesFiltrados(
+      nomes.filter((nome) => nome.toLowerCase().includes(value.toLowerCase()))
+    );
+    console.log(value);
   }
 
   return (
-    <div>
-      Items:
+    <>
+      Filtrar por nome:
       <input onChange={onChange} type="search"></input>
-      <br />
-      <br />
-      <form onSubmit={onSubmit}>
-        New item:
+      <form>
+        Nome:
         <input ref={inputRef} type="text"></input>
-        <button type="submit">Add</button>
+        <button onClick={onClick} type="submit">
+          Add
+        </button>
       </form>
-      <br />
-      <br />
-      <h3>Items:</h3>
-      {item.map((item) => (
-        <div>{item}</div>
+      <h3>Nomes:</h3>
+      {nomesFiltrados.map((nome) => (
+        <div>{nome}</div>
       ))}
-    </div>
+    </>
   );
 }
 

@@ -162,3 +162,19 @@
 .idade-genero {
   margin-left: 4vw;
 }
+
+#card1 {
+  display: block;
+}
+
+#card1ocult {
+  display: none;
+}
+
+#card2 {
+  display: block;
+}
+
+#card2ocult {
+  display: none;
+}

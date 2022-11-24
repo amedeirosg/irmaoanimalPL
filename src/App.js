@@ -12,7 +12,19 @@ function App() {
           <Route path="/" element={<Conteudo />} />
           <Route path="/adote" element={<Adote />} />
           <Route path="/ajude" element={<Ajude />} />
-          <Route path="/apadrinhe" element={<Apadrinhe />} />
+          <Route
+            path="/apadrinhe"
+            element={
+              <Apadrinhe
+                nome1="floki"
+                nome2="aslan"
+                idade1="2 anos"
+                idade2="3 anos"
+                genero1="Macho"
+                genero2="femea"
+              />
+            }
+          />
           <Route path="/sobre" element={<Sobre />} />
         </Routes>
       </Router>
